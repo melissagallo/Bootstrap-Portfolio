@@ -6,93 +6,130 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body style="margin-bottom: 60px; background-image: url('assets/images/pink_rice.png');">
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row ">
+
             <nav class="navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-header text-center col-xs-12 col-md-8" style="background-color: aqua">
-                        <a class="navbar-brand" style="float: none" href="index.html">Melissa Gallo</a>
+                <div class="container-fluid">
+
+                    <div class="navbar-header">
+
+                        <a class="navbar-brand col-xs-12" style="color:#fff; background-color:#4aaaa5; text-align:center;" href="index.html ">Melissa Gallo</a>
+
                     </div>
 
-                    <!-- <div class="col-xs-12 col-md-3"> -->
-                    <ul class="nav navbar-nav col-xs-12 col-md-4">
+                    <ul class="nav navbar-nav navbar-right" style="margin-left: 15px;">
 
-                        <li style="display: inline">
-                            <a href="index.html">About</a>
+                        <li class="col-xs-4" style="display: inline ">
+                            <a href="index.html ">About</a>
                         </li>
-                        <li style="display: inline">
-                            <a href="portfolio.html">Portfolio</a>
+                        <li class="col-xs-4" style="display: inline ">
+                            <a href="portfolio.html ">Portfolio</a>
                         </li>
-                        <li class="active" style="display: inline">
-                            <a href="contact.html">Contact</a>
+                        <li class="active col-xs-4" style="display: inline ">
+                            <a href="contact.html ">Contact</a>
                         </li>
                     </ul>
-                    <!-- </div> -->
                 </div>
             </nav>
         </div>
 
-        <div class="row">
-            <div class="col-xs-12 col-md-8">
 
-
-                <div id="main-container">
-                    <section class="main-section">
-                        <h1>About Me</h1>
-                        <img src="https://i.imgur.com/tVEOSDa.jpg" title="source: imgur.com" class="auth-image" alt="Melissa Gallo picture" style="width:150px"
-                        />
-                        <p>As a Corel PAINTER MASTER ELITE member, Melissa Gallo brings to the digital table a long history
-                            of artwork in traditional media. Painting in acrylics and oils as a commercial illustrator for
-                            over 20 years, her work has been featured on the covers of books for several of the major publishing
-                            houses in both New York and Milan.
-                        </p>
-
-                        <p> Melissa's experience as a traditional painter and photographer inform her digital work and she delights
-                            in replicating traditional media techniques while enjoying the specific advantages of the new
-                            digital medium. Now working as a portrait painter and digital art instructor in Photoshop and
-                            Corel's Painter software, Melissa resides with her family in Florida.
-                        </p>
-                    </section>
+    </div>
+    <div class="row ">
+        <div class="col-xs-12 col-md-8 " style="background-color: white; margin-bottom: 15px; padding: 30px;">
+            <h1 class="text-left " style="color: #4aaaa5; font-family: 'Georgia',Times, Times New Roman, serif; padding: 4%;">Contact</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <h5><b>Message</b></h5>
+                <textarea class="form-control" style="margin-bottom: 10px;">
+                       
+                       
+                </textarea>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
 
 
-            <div class="col-xs-12 col-md-4">
+        </div>
 
-                <section class="sidebar">
 
-                    <div id="connect">
-                        <h2>Connect with Me</h2>
-                        <img src="assets/images/if_Instagram_1298747.png" class="social" alt="Instagram" />
-                        <img src="assets/images/if_facebook_square_107117.png" class="social" alt="Facebook" />
-                        <img src="assets/images/if_github_253591.png" class="social" alt="Github" />
+        <div class="col-xs-12 col-md-4">
+
+
+
+            <div class="row" style="margin:20px; padding: 20px; margin-top: 0; background-color: #fff;">
+                <div class="col-sm-6-md-12" style: "margin: 5%;">
+                    <h3 style="text-align: center; background-color:#fff; color:#4aaaa5; padding: 15px; margin-top: 4px;">Connect with Me</h3>
+
+                    <div class="col-xs-4 col-md-4 ">
+                        <img class="img-responsive center-block " src="assets/images/if_Instagram_1298747.png
+                                " alt="Instagram " />
                     </div>
 
-                </section>
+                    <div class="col-xs-4 col-md-4 ">
+                        <img class="img-responsive center-block " src="assets/images/if_facebook_square_107117.png
+                                " alt="Facebook " />
+
+                    </div>
+                    <div class="col-xs-4 col-md-4 ">
+                        <img class="img-responsive center-block " src="assets/images/if_github_253591.png
+                                " alt="Github " />
+
+                    </div>
+                </div>
             </div>
 
-        </div>
-
-        <div class="row container fixed-bottom" style=" position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 60px; /* Set the fixed height of the footer here */
-        line-height: 60px; /* Vertically center the text there */
-        background-color: #666; color: #fff; text-align:center">
-
-            <footer>
-                <div class="col-xs-12">
-                    &copy Copyright 2018 Melissa Gallo
-                </div>
-            </footer>
-
 
         </div>
+    </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="row fixed-bottom " style="position: sticky; bottom: 0; height: 60px; line-height: 60px; background-color:
+                                #666; color: #fff; text-align:center ">
+        <div class="col-xs-12 ">
+            &copy Copyright 2018 Melissa Gallo
+        </div>
+    </footer>
+
+
+    </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa "
+        crossorigin="anonymous "></script>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
